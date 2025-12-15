@@ -1,34 +1,65 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f6f8;
   margin: 0;
-  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
 }
 
 header {
-  background: #0d6efd;
-  color: white;
-  padding: 15px;
+  padding: 30px 15px;
   text-align: center;
+  background: rgba(0,0,0,0.4);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  opacity: 0.8;
 }
 
 .container {
+  max-width: 1000px;
+  margin: auto;
   padding: 20px;
 }
 
 .card {
-  background: white;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
 }
 
-a.button {
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 80px;
+}
+
+.button {
   display: inline-block;
-  padding: 10px 15px;
-  background: #0d6efd;
+  background: #00c6ff;
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
   color: white;
+  padding: 10px 18px;
+  border-radius: 25px;
   text-decoration: none;
-  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button:hover {
+  opacity: 0.9;
 }
